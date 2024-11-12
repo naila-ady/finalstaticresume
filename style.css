@@ -1,0 +1,670 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    font-family: sans-serif;
+}
+.resume-box{
+    width:900px;
+    height:550px;
+    color:#333333;
+    background-color: #FFFFFF;
+    margin-left:114px;
+    margin-right: 114px;
+    padding:30px;
+     margin-top: 40px;
+    border-bottom: #FF8C67;
+    border:6px solid transparent;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    display: block;
+}
+.header{
+    width:790px;
+    height:367px;
+    background-color:#333333;
+    display:flex;
+    flex-direction: column;
+    border-bottom:5px solid #ff8c00;
+    align-items: center;
+    display: block;
+    margin-bottom: 20px;
+   
+
+} 
+.header.header{
+    width:900px;
+    height:340px;
+    padding:5px;
+    background-color:rgb(104, 5, 25);
+    margin-bottom: 20px;
+  
+
+}
+.Personal-info{
+    width: 50%;
+    height:140px;
+    color:#FFFFFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right:70px;
+    margin-top: 30px;
+    
+
+}
+h1{
+    color: #FFFFFF;
+    /* width: 350px; */
+    height:55px;
+    font-size:55px;
+    margin-top:30px;
+    text-align: center;
+    margin-right: 20px;
+
+}
+h2#name{
+    width: 350px;
+    height:40px;
+    font-size: 35px;
+    font-family: sans-serif;
+    color:#FFFFFF;
+    border-bottom: 3px solid #ff8c00;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    margin-top: 20px;
+    
+}
+
+#profile-picture{
+    width:80%;
+    height:180px;
+    border:4px solid black;
+   border-color:#FFFFFF;
+    border-radius:50%;
+    margin-bottom:10px;
+}
+.Profile-container{
+    display:flex;
+    
+} 
+h4.contact{
+    color: #FFFFFF;
+    font:16px;
+    font-family:sans-serif ;
+    margin:5px 0px 0px;
+    width:160px;
+    height:23px;
+    
+}
+h4.contact>a{
+    color:#FF8C67;
+}
+.tabs{
+    width:578px;
+    height:49px;
+    color:#333333;
+    font-family: sans-serif;
+    font-size: 16px;
+    margin-bottom:10px;
+    text-align: center;
+    margin-left: 70px;
+
+}
+#education{
+    width:103px;
+    height:34px;
+    color:#FFFFFF;
+    font:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF8C67;
+    border-color:#FF8C67;
+    border-radius: 5px;
+    margin:15px 15px 0px;
+    
+}
+#skills{
+    width:103px;
+    height:34px;
+    color: #FFFFFF;
+    font:16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF8C67;
+    margin:15px 15px 0px ;
+    padding:8px 20px;
+    border-color:#FF8C67;
+    border-radius: 5px;
+}
+#experience{
+    width:103px;
+    height:34px;
+    color:#FFFFFF;
+    font: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF8C67;
+    margin:15px 15px 0px;
+    padding:8px 20px;
+    border-color:#FF8C67;
+    border-radius: 5px;
+}
+.education-card{
+    width: 900px;
+   height:800px;
+   background-color: #FFffff;
+   padding:60px;
+   margin-top:60px;
+   border-left:7px solid #FF8C67;
+   border-bottom: 4px solid #FF8C67;
+   line-height:1;
+   margin-left:115px;
+   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+   
+}
+h2.education{
+    color:#1A1A2E;
+    font-family: sans-serif;
+    font-size:80px;
+    font-weight:900;
+    margin-top:60px;
+    
+}
+.cardTitle{
+       color:#666666;
+    font-family: sans-serif;
+    font-size:40px; 
+    margin-top:30px ;
+    font-weight:900;
+}
+.cardSubtitle{
+    color:#666666;
+    font-family: sans-serif;
+    margin-top:5px;
+    font-size:35px;
+}
+.skills-card{
+    width: 900px;
+    height:800px;
+    color:#1A1A2E;
+    font-family: sans-serif;
+    background-color: #FFffff;
+    font-size: 80px;
+    padding:60px;
+    margin-top: 60px;
+    display:flex;
+    flex-wrap: wrap;
+    border-left:7px solid #FF8C67;
+    border-bottom:4px solid #ff8c00;
+    margin-left: 115px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    
+ }
+.skills-list>button{
+    border-color:#FF8C67 ;
+   border-radius:10px;
+    text-align: center;
+    width:350px;
+    height:60px;
+    background-color:#FF8C67;
+    color:#666666;
+    font-weight:800;
+     margin-top: 20px;
+    font-size: 30px;
+  
+}
+ .experience-card{
+    width:900px;
+    height:800px;
+    background-color:#FFffff;
+    color:#1A1A2E;
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: 60px;
+    padding: 60px;
+    border-left: 7px solid #FF8C67;
+    border-bottom: 4px solid #FF8C67;
+    margin-left: 115px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+ }
+ .cardHeading{
+    color:#666666;
+    font-family: sans-serif;
+    font-size:50px; 
+    margin-top:30px ;
+    font-weight:900;
+    
+
+ }
+ .experience-card>p{
+    color:#666666;
+    font-family: sans-serif;
+    margin-top:5px;
+    font-size: 35px;
+}
+
+/* media queiry */
+@media (min-width:266px) and (max-width:479px){
+    .resume-box{
+        width: 85%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        height:700px;
+       
+    }
+    .header {
+        width:370px;
+        height:400px;
+    } 
+    
+    .header.header{
+        width:100%;
+        height:280px;
+        background-color:rgb(104, 5, 25);
+    }
+
+     h1 {
+        font-size:30px;
+        font-weight: bold;
+     }
+    h2#name {
+        font-size:12px;
+        width:20%;
+        border: none;
+    }
+
+    #profile-picture {
+        width:40vw;
+        height:auto;
+        object-fit: cover;
+    }
+     .Personal-info {
+               margin-left:20px;
+        margin-top: 20px;
+        font-size:10px;
+    }
+    
+    .tabs {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #education,
+    #skills,
+    #experience {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .education-card,
+    .skills-card,
+    .experience-card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .cardTitle,
+    .cardSubtitle,
+    .cardHeading {
+        font-size:20px;
+       
+    }
+     .educatiion-card{
+        height: auto;
+        margin-left:0px;
+        margin-top: 5px;
+    }
+
+    .education-card h2{
+        font-size:35px;
+        width: 50%;
+    }
+    .cardTitle{
+        font-size:30px;
+        width:60%;
+    }
+     .cardSubtitle{
+         font-size:20px;
+         width:60%;
+    }
+    .skills-card{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .skills-card h2{
+        font-size: 80px;
+    }
+    .skills-list>button {
+        width:80%;
+        font-size:18px;
+        padding: 12px;
+        margin:10px auto;
+    }
+}
+@media (max-width: 480px) {
+    .resume-box {
+        width: 85%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        height:500px;
+    }
+
+     .header {
+        width:370px;
+        height:300px;
+    } 
+     .header.header{
+        width:100%;
+        height:280px;
+        background-color:rgb(104, 5, 25);;
+    }
+
+    h1 {
+        font-size:20px;
+        font-weight: bold;
+    }
+
+    h2#name {
+        font-size:15px;
+        width: 240px;
+        
+    }
+
+    #profile-picture {
+        width: 60%;
+        height: 120px;
+    }
+
+    .Personal-info {
+        width:260px;
+        height: auto;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    .tabs {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #education,
+    #skills,
+    #experience {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .education-card,
+    .skills-card,
+    .experience-card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    /* .cardTitle,
+    .cardSubtitle,
+    .cardHeading {
+        font-size: 20px;
+    } */
+
+
+    .education-card{
+        height: auto;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .education-card h2{
+        font-size:25px;
+        width:50%;
+    }
+    .cardTitle{
+        font-size:30px;
+        width:60%;
+    }
+     .cardSubtitle{
+         font-size:20px;
+         width:60%;
+    }
+
+    /* experience */
+    .experience-card{
+        height: auto;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+    .experience-card h2{
+        font-size:35px;
+        width: 50%;
+    }
+    .cardHeading{
+        font-size:30px;
+        width:60%;
+    }
+     .cardDetails{
+         font-size:20px;
+         width:60%;
+    }
+
+    .skills-card{
+        height: auto;
+    }
+
+
+    .skills-list>button {
+        width: 90%;
+        font-size: 24px;
+    }
+}
+
+/* Medium screens (tablet) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .resume-box {
+        width:85%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 20px;
+        height: 630px;
+    }
+
+     .header.header {
+        width:100%;
+        height:380px;
+        padding: 10px;
+        background-color:rgb(104, 5, 25);;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2#name {
+        font-size:25px;
+        width:260px
+    }
+
+    #profile-picture {
+        width:70%;
+        height: 180px;
+    }
+
+    .Personal-info {
+        width:60%;
+        height: 140px;
+         margin-top: 30px;
+        
+    }
+
+    .tabs {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #education,
+    #skills,
+    #experience {
+        width: 100%;
+        margin: 15px 10px;
+    }
+
+    .education-card,
+    .skills-card,
+    .experience-card {
+        width: 100%;
+        padding: 30px;
+    }
+    /* education */
+    .education-card{
+        height: auto;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .education-card h2{
+        font-size:25px;
+        width:50%;
+    }
+    .cardTitle{
+        font-size:30px;
+        width:60%;
+    }
+     .cardSubtitle{
+         font-size:20px;
+         width:60%;
+    }
+   
+
+    .experience-card{
+        height: auto;
+    }
+
+    .experience-card h2{
+        font-size:55px;
+        width: 50%;
+    }
+    .cardHeading{
+        font-size: 40px;
+    }
+     .cardDetails{
+         font-size:30px;
+         width:60%;
+    }
+
+    .cardTitle,
+    .cardSubtitle,
+    .cardHeading {
+        font-size:25px;
+    }
+    .skills-card{
+        height: auto;
+    }
+
+    .skills-list>button {
+        width:70%;
+        font-size: 28px;
+    }
+}
+
+/* Large screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .resume-box {
+        width:65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header{
+        width:100%
+    }
+     .header.header {
+        width:100%;
+        height: 60%;
+        background-color:rgb(104, 5, 25);
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    h2#name {
+        font-size:30px;
+        width: 300px;
+    }
+
+    #profile-picture {
+        width: 80%;
+        height: 180px;
+    }
+
+    .tabs {
+        width: 100%;
+    }
+
+    .education-card,
+    .skills-card,
+    .experience-card {
+        width: 85%;
+    }
+    .experience-card{
+        height: auto;
+    }
+
+    .experience-card h2{
+        font-size:70px;
+    }
+    .cardHeading{
+        font-size: 50px;
+    }
+    .cardDetails{
+         font-size: 35px;
+    }
+    .skills-card{
+        height: auto;
+    }
+    .skills-card{
+        height: auto;
+    }
+
+    .skills-list>button {
+        width:90%;
+        font-size: 28px;
+    }
+}
+
+/* Extra large screens */
+@media (min-width: 1025px) {
+    .resume-box {
+        width: 900px;
+    }
+
+   .header.header {
+        width: 700px;
+        height: 400px;
+        background-color:rgb(104, 5, 25);;
+    }
+
+    .tabs {
+        width: 90%;
+    }
+
+    #education,
+    #skills,
+    #experience {
+        width: 120px;
+    }
+
+    .education-card,
+    .skills-card,
+    .experience-card {
+        width: 900px;
+        padding: 60px;
+    }
+}
+ 
+
